@@ -11,3 +11,62 @@
 
 // Import Plugins
 // @import 'plugins/plugin';
+
+html {
+	box-sizing:border-box;
+}
+
+* {
+	box-sizing:inherit;
+}
+
+img {
+	max-width:100%;
+}
+
+.header {
+	height:45vh;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+.header__image {
+	max-width:50%;
+}
+
+.hero{
+	width:100%;
+	min-height:30vh;
+	background-color:#1459fe;
+	display:flex;
+	align-items:center;
+}
+
+.hero__innerWrap {
+	width:85%;
+	margin:0 auto;
+}
+
+.hero__text {
+	color:#fff;
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:5vh;
+	line-height:8vh;
+}
+
+.lede {
+	width:85%;
+	margin:0 auto;
+}
+
+.lede__p{
+	font-size:4vh;
+	line-height:6vh;
+	color:#333;
+}
+
+.jobSearch__innerWrap {
+	width:85%;
+	margin:0 auto;
+}
