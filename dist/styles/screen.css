@@ -363,7 +363,7 @@ img {
   max-width: 100%; }
 
 .header {
-  height: 45vh;
+  min-height: 20vh;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -410,8 +410,20 @@ img {
 .lede__p {
   font-size: 4vh;
   line-height: 6vh;
-  color: #333; }
+  color: #737373; }
 
 .jobSearch__innerWrap {
   width: 85%;
   margin: 0 auto; }
+
+.label {
+  color: #f60; }
+
+.txt {
+  width: 100%; }
+
+@media only screen and (min-width: 1000px) {
+  .header {
+    min-height: 40vh; }
+  .txt {
+    width: 35%; } }
