@@ -412,7 +412,7 @@ img {
   max-width: 100%; }
 
 .header {
-  min-height: 20vh;
+  min-height: 25vh;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -426,12 +426,13 @@ img {
       -ms-flex-align: center;
           align-items: center; }
 
-.header__image {
-  max-width: 50%; }
+.header__imageWrap {
+  max-width: 75%;
+  margin: 0 auto; }
 
 .hero {
   width: 100%;
-  min-height: 30vh;
+  min-height: 25vh;
   background-color: #1459fe;
   display: -webkit-box;
   display: -webkit-flex;
@@ -449,16 +450,18 @@ img {
 .hero__text {
   color: #fff;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 5vh;
-  line-height: 8vh; }
+  font-size: 4vh;
+  line-height: 6vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh; }
 
 .lede {
   width: 85%;
   margin: 0 auto; }
 
 .lede__p {
-  font-size: 4vh;
-  line-height: 6vh;
+  font-size: 3vh;
+  line-height: 5vh;
   color: #737373; }
 
 .jobSearch {
@@ -503,6 +506,9 @@ img {
   font-size: 14px;
   margin-left: 2px; }
 
+.jobSearch__supplementalLink {
+  font-size: 11px; }
+
 .label {
   color: #f60; }
 
@@ -519,4 +525,9 @@ img {
     float: left; }
   .jobSearch__floaty {
     float: left;
-    padding-top: 2em; } }
+    padding-top: 2em; }
+  .hero__text {
+    font-size: 5vh; }
+  .lede__p {
+    font-size: 4vh;
+    line-height: 6vh; } }
