@@ -428,7 +428,7 @@ img {
           align-items: center; }
 
 .header__imageWrap {
-  max-width: 55%;
+  max-width: 75%;
   margin: 20px auto; }
 
 .hero {
@@ -542,7 +542,7 @@ label {
 
 @media only screen and (min-width: 1000px) {
   .header {
-    min-height: 30vh; }
+    min-height: 10vw; }
   .jobSearch__col45 {
     width: 45%;
     float: left; }
