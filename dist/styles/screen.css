@@ -369,7 +369,7 @@ img {
   width: 100%;
   min-height: 1px; }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
   .wrapper {
     width: 95%;
     max-width: 75em; }
@@ -450,11 +450,11 @@ img {
 
 .hero__text {
   color: #fff;
-  font-weight: bold;
-  font-size: 6.5vw;
-  line-height: 10vw;
-  margin-top: 4vw;
-  margin-bottom: 4vw; }
+  font-weight: 500;
+  font-size: 5.5vw;
+  line-height: 8vw;
+  margin-top: 3vw;
+  margin-bottom: 3vw; }
 
 .lede {
   width: 85%;
@@ -540,9 +540,9 @@ label {
   font-size: 18px;
   padding: 3px 6px; }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 768px) {
   .header {
-    min-height: 10vw; }
+    min-height: 20vw; }
   .jobSearch__col45 {
     width: 45%;
     float: left; }
@@ -552,7 +552,7 @@ label {
     width: 10%; }
   .hero__text {
     font-size: 3.5vw;
-    line-height: 2vw; }
+    line-height: 1vw; }
   .lede__p {
     font-size: 2vw;
     line-height: 2vw; } }
