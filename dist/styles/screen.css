@@ -413,7 +413,7 @@ img {
   max-width: 100%; }
 
 .header {
-  min-height: 25vh;
+  min-height: 15vh;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -428,7 +428,7 @@ img {
           align-items: center; }
 
 .header__imageWrap {
-  max-width: 65%;
+  max-width: 55%;
   margin: 20px auto; }
 
 .hero {
@@ -451,10 +451,10 @@ img {
 .hero__text {
   color: #fff;
   font-weight: bold;
-  font-size: 4vh;
-  line-height: 6vh;
-  margin-top: 2vh;
-  margin-bottom: 2vh; }
+  font-size: 6.5vw;
+  line-height: 7vw;
+  margin-top: 3vw;
+  margin-bottom: 3vw; }
 
 .lede {
   width: 85%;
@@ -462,8 +462,8 @@ img {
 
 .lede__p {
   font-weight: normal;
-  font-size: 3vh;
-  line-height: 5vh;
+  font-size: 4vw;
+  line-height: 6vw;
   color: #737373; }
 
 .jobSearch {
@@ -551,7 +551,8 @@ label {
     padding-top: 2em;
     width: 10%; }
   .hero__text {
-    font-size: 5vh; }
+    font-size: 3.5vw;
+    line-height: 2vw; }
   .lede__p {
-    font-size: 4vh;
-    line-height: 6vh; } }
+    font-size: 2vw;
+    line-height: 2vw; } }
