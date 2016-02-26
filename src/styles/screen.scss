@@ -60,8 +60,8 @@ img {
 	font-weight:500;
 	font-size:20pt;
 	line-height:24pt;
-	margin-top:30px;
-	margin-bottom:30px;
+	margin-bottom:10px;
+	margin-top:10px;
 }
 
 .lede {
@@ -208,12 +208,14 @@ label{
 
 	.hero__text {
 		font-size:34pt;
-		line-height:34pt;
+			margin-bottom:25px;
+	margin-top:25px;
+		line-height:28pt;
 	}
 
 	.lede__p{
-		font-size:18pt;
-		line-height:22pt; 
+		font-size:2vw;
+		line-height:15pt; 
 		margin:0.7em 0;
 	}
 
