@@ -458,10 +458,12 @@ img {
 
 .lede {
   width: 85%;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px; }
 
 .lede__p {
-  font-weight: normal;
+  font-weight: 500;
   font-size: 4vw;
   line-height: 6vw;
   color: #737373; }
@@ -529,6 +531,10 @@ label {
   display: inline-block;
   width: auto; }
 
+.jobSearch__smallText {
+  color: #aaa;
+  font-size: 12px; }
+
 .jobSearch__supplementalLink {
   font-size: 11px; }
 
@@ -544,7 +550,7 @@ label {
   .header {
     min-height: 20vw; }
   .jobSearch__col45 {
-    width: 45%;
+    width: 40%;
     float: left; }
   .jobSearch__floaty {
     float: left;
@@ -552,7 +558,8 @@ label {
     width: 10%; }
   .hero__text {
     font-size: 3.5vw;
-    line-height: 1vw; }
+    line-height: 1.5vw; }
   .lede__p {
     font-size: 2vw;
-    line-height: 2vw; } }
+    line-height: 2vw;
+    margin: 0.7em 0; } }
