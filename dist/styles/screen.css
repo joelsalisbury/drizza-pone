@@ -567,7 +567,8 @@ label {
   .jobSearch__labelWrap {
     font-size: 14pt; }
   .jobSearch__btn {
-    width: auto; }
+    width: auto;
+    border-radius: 0px; }
   .jobSearch__smallText {
     font-weight: normal; }
   .hero__text {
